@@ -1,7 +1,7 @@
 PROJECT = restc
 
 # Dependecies ##########################################################
-DEPS = hackney jsx erlsom mochiweb_util
+DEPS = hackney jsx erlsom mochiweb
 
 dep_hackney       = hex 1.15.1
 dep_jsx           = hex 2.9.0
