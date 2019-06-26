@@ -33,7 +33,7 @@
                                       , public_key
                                       , ssl
                                       , hackney
-                                      , mochiweb_util
+                                      , mochiweb
                                       ]}
                      , {env,          []}
                      , {registered,   []}
