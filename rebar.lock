@@ -6,7 +6,10 @@
  {<<"jsx">>,{pkg,<<"jsx">>,<<"2.9.0">>},0},
  {<<"metrics">>,{pkg,<<"metrics">>,<<"1.0.1">>},1},
  {<<"mimerl">>,{pkg,<<"mimerl">>,<<"1.2.0">>},1},
- {<<"mochiweb_util">>,{pkg,<<"mochiweb_util">>,<<"0.1.0">>},0},
+ {<<"mochiweb">>,
+  {git,"git://github.com/mochi/mochiweb.git",
+       {ref,"ad1198018429e22cdf2bb530a2a64ec456c88ab6"}},
+  0},
  {<<"parse_trans">>,{pkg,<<"parse_trans">>,<<"3.3.0">>},2},
  {<<"ssl_verify_fun">>,{pkg,<<"ssl_verify_fun">>,<<"1.1.4">>},1},
  {<<"unicode_util_compat">>,{pkg,<<"unicode_util_compat">>,<<"0.4.1">>},2}]}.
@@ -19,7 +22,6 @@
  {<<"jsx">>, <<"D2F6E5F069C00266CAD52FB15D87C428579EA4D7D73A33669E12679E203329DD">>},
  {<<"metrics">>, <<"25F094DEA2CDA98213CECC3AEFF09E940299D950904393B2A29D191C346A8486">>},
  {<<"mimerl">>, <<"67E2D3F571088D5CFD3E550C383094B47159F3EEE8FFA08E64106CDF5E981BE3">>},
- {<<"mochiweb_util">>, <<"ECD20D44C6A8E19D1D6E5FE6921E55E921DA6E42F8757A00FF901C7AD4DC5D3D">>},
  {<<"parse_trans">>, <<"09765507A3C7590A784615CFD421D101AEC25098D50B89D7AA1D66646BC571C1">>},
  {<<"ssl_verify_fun">>, <<"F0EAFFF810D2041E93F915EF59899C923F4568F4585904D010387ED74988E77B">>},
  {<<"unicode_util_compat">>, <<"D869E4C68901DD9531385BB0C8C40444EBF624E60B6962D95952775CAC5E90CD">>}]}
